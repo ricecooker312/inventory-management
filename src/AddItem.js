@@ -21,31 +21,35 @@ const AddItem = (props) => {
     }
 
     return (
-        <div>
-            <h2>Add an Item</h2>
-            <form>
-                <label htmlFor="name-field">Name:</label>
-                <input id="name-field" type="text" value={name} onChange={(e) => {
+        <div className="container">
+            <div className="row">
+                <h2>Add an Item</h2>
+            </div>
+            <div className="row">
+                <label htmlFor="name-field" className="mt-3">Name:</label>
+                <input className="form-control" id="name-field" type="text" value={name} onChange={(e) => {
                     setName(e.target.value)
                 }} />
 
-                <label htmlFor="price-field">Price:</label>
-                <input id="price-field" type="number"value={price} onChange={(e) => {
+                <label htmlFor="price-field" className="mt-3">Price:</label>
+                <input className="form-control" id="price-field" type="number"value={price} onChange={(e) => {
                     setPrice(e.target.value)
                 }} />
-                
-                <label htmlFor="type-field">Type:</label>
-                <input id="type-field" type="text" value={type} onChange={(e) => {
+
+                <label htmlFor="type-field" className="mt-3">Type:</label>
+                <input className="form-control" id="type-field" type="text" value={type} onChange={(e) => {
                     setType(e.target.value)
                 }} />
 
-                <label htmlFor="brand-field">Brand:</label>
-                <input id="brand-field" type="text" value={brand} onChange={(e) => {
+                <label htmlFor="brand-field" className="mt-3">Brand:</label>
+                <input className="form-control" id="brand-field" type="text" value={brand} onChange={(e) => {
                     setBrand(e.target.value)
                 }} />
+            </div>            
 
-                <button type="button" onClick={addItemButtonPressed}>Add Item</button>
-            </form>
+            <div className="row mt-3">
+                <button type="button" className="btn btn-primary" onClick={addItemButtonPressed}>Add Item</button>
+            </div>    
         </div>
     )
 }

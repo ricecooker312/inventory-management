@@ -23,10 +23,16 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <SearchBar updateSearchParams={updateFilters} />
-      <ItemsDisplay items={data["items"]} />
-      <AddItem addItem={addItem} />
+    <div className="container">
+      <div className="row mt-4">
+        <SearchBar updateSearchParams={updateFilters} />
+      </div>
+      <div className="row mt-3">
+        <ItemsDisplay items={data["items"]} />
+      </div>
+      <div className="row mt-3">
+        <AddItem addItem={addItem} />
+      </div>
     </div>
   );
 }
