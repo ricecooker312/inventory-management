@@ -56,6 +56,7 @@ function App() {
 
   return (
     <div className="container">
+      this is only for testing
       <div className="row mt-4">
         <SearchBar updateSearchParams={updateFilters} />
       </div>
