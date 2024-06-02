@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ricecooker312.github.io/inventory-management/static/css/main.b8bc805e.css",
-    "main.js": "/ricecooker312.github.io/inventory-management/static/js/main.45e4ebef.js",
-    "static/js/453.79e68202.chunk.js": "/ricecooker312.github.io/inventory-management/static/js/453.79e68202.chunk.js",
-    "index.html": "/ricecooker312.github.io/inventory-management/index.html",
-    "main.b8bc805e.css.map": "/ricecooker312.github.io/inventory-management/static/css/main.b8bc805e.css.map",
-    "main.45e4ebef.js.map": "/ricecooker312.github.io/inventory-management/static/js/main.45e4ebef.js.map",
-    "453.79e68202.chunk.js.map": "/ricecooker312.github.io/inventory-management/static/js/453.79e68202.chunk.js.map"
+    "main.css": "/inventory-management/static/css/main.b8bc805e.css",
+    "main.js": "/inventory-management/static/js/main.885f54ab.js",
+    "static/js/453.79e68202.chunk.js": "/inventory-management/static/js/453.79e68202.chunk.js",
+    "index.html": "/inventory-management/index.html",
+    "main.b8bc805e.css.map": "/inventory-management/static/css/main.b8bc805e.css.map",
+    "main.885f54ab.js.map": "/inventory-management/static/js/main.885f54ab.js.map",
+    "453.79e68202.chunk.js.map": "/inventory-management/static/js/453.79e68202.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8bc805e.css",
-    "static/js/main.45e4ebef.js"
+    "static/js/main.885f54ab.js"
   ]
 }
