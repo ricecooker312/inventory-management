@@ -9,6 +9,7 @@ function ItemsDisplay(props) {
             <td>{item.price}</td>
             <td>{item.type}</td>
             <td>{item.brand}</td>
+            <td><button className='btn btn-danger' onClick={() => props.deleteItem(item)}>Delete</button></td>
         </tr>
     )
   }
